@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body*/
+body {
+  background: ;
+  height: 1200px;
+}
+
+/* header */
+#media {
+  display: grid;
+  grid-template-columns: 10% repeat(3, 1fr) 10%;
+  height: 200px;
+  width: 100%;
+}
+
+/*Logo*/
+#media_image {
+  display: grid;
+  grid-column: 2/3;
+  background-color: #91A192;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+}
+
+.Logo {
+  height: 150px;
+  position: relative;
+  left: 50px;
+  top: 65px;
+}
+
+/*Følgere tal*/
+#tal {
+  grid-column: 3/4;
+  background: ;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  left: 50px;
+}
+
+.tal_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+  background: ;
+  position: relative;
+  left: 50px;
+}
+
+.tal_media h1 {
+  font-family: 'Hind Siliguri', 'sans-serif';
+}
+
+.tal_media {
+  font-family: 'Hind Siliguri', 'sans-serif';
+}
+
+/*Intro tekst*/
+#velkomst_tekst {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  left: 200px;
+  top: 225px;
+}
+
+#velkomst_tekst h2 {
+  font-family: 'Hind Siliguri', 'sans-serif';
+}
+
+#velkomst_tekst p {
+  font-family: 'Hind Siliguri', 'sans-serif';
+}
+
+#velkomst_tekst a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Hind Siliguri', 'sans-serif';
+}
+
+/*buttons */
+#buttons {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 100px;
+  position: relative;
+  top: 250px;
+  left: 200px;
+}
+
+.btn_social {
+  height: 40px;
+  width: 150px;
+  margin-right: 100px;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: 'Hind Siliguri', 'sans-serif';
+  font-size: 1.3rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+#btn_1 {
+  background-color: #0651d1;
+  color: white;
+}
+
+/*Billede galleri*/
+#galleri {
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  background-color: ;
+  position: relative;
+  top: 225px;
+  left: 200px;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #ede9eb;
+}
+
+#blomst_video {
+  height: 250px;
+  width: 250px;
+}
+
+.image_text {
+  height: 100px;
+  width: 250px;
+  font-size: 1rem;
+  font-family: 'Hind Siliguri', 'sans-serif';
+  font-weight: lighter;
+}
+
+#BB {
+  font-weight: bold;
+}
+
+.Content_insta {
+  height: 250px;
+  width: 250px;
+}

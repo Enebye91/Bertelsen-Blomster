@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hind Siliguri', 'sans serif';
+  background-color: #91A192;
+  height: 1200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Nanum', 'sans-serif';
+  color: #737F74;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Hind Siliguri', 'sans-serif';
+  color: #ede9eb;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: 'Hind Siliguri', 'sans-serif';
+  color: #ede9eb;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: 'Hind Siliguri', 'sans-serif';
+  color: #ede9eb;
+}
+
+
+
+/* Header section */
+header {
+  display: flex;
+  width: 100%;
+  height: 12vh;
+  background-color: #91A192;
+  margin: auto;
+  align-items: center;
+}
+
+.logo, .nav-links, .ikon, .burger {
+  display: flex;
+}
+
+/* logo */
+.logo {
+  flex: 1;
+  height: 60px;
+}
+
+.Logo_B {
+  height: 60px;
+  position: relative;
+  bottom: 15px;
+  left: 20px;
+}
+
+/* navigationsbar */
+nav {
+  flex: 2;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 35px;
+  background: #91A192;
+  z-index: 5;
+}
+
+nav ul li a {
+  width: 200px;
+  height: 100px;
+  display: block;
+  color: #ede9eb;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 30px;
+  visibility: hidden;
+}
+
+nav ul li:hover ul {
+  visibility: visible;
+}
+
+nav a:hover {
+  color: #B9C8BA;
+}
+
+/**/
+.ikon {
+  flex: 1;
+  justify-content: flex-end;
+  padding: .5rem 1.3rem;
+  margin: 0 .2rem;
+  filter: drop-shadow(2px 2px 2px #737F74);
+}
+
+.ikons {
+  margin: 10px;
+}
+
+.Log_in {
+  width: 35px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
+.Basket {
+  width: 35px;
+  position: relative;
+  bottom: 10px;
+}
+
+/*burger menu */
+.burger {
+  flex: 1;
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: #ede9eb;
+  margin: 5px;
+}
+
+/*  body section*/
+
+#erhverv {
+  display: flex;
+  flex-direction: column;
+}
+
+#valg {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#funktion {
+  height: 600px;
+  width: 100%;
+}
+
+#over_skrift {
+  height: 250px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.A_overskrift {
+font-weight: lighter;
+color: #ede9eb;
+}
+
+#overskrrift_1 {
+  position: relative;
+  right: 30px;
+
+}
+
+#abonnement_container {
+  height: 250px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.abonnement {
+  height: 225px;
+  width: 250px;
+  margin-right: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pris {
+  background-color: #737F74;
+}
+
+.pris h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+}
+
+/*body box 2*/
+#ikon_box {
+  height: 250px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 200px;
+  position: relative;
+  right: 150px;
+}
+
+/* box med ikoner*/
+#funktion {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*overskrift til ikonerne */
+#tekst_funktion {
+width: 300px;
+height: 50px;
+display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+position: relative;
+left: 400px;
+top: 100px;
+}
+
+.ikon_container {
+  width: 250px;
+  height:250px;
+}
+
+.image {
+  width: 150px;
+  height: 175px;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+
+.image2 {
+  width: 150px;
+  height: 175px;
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+
+.image3 {
+  width: 175px;
+  height: 150px;
+  position: relative;
+  left: 25px;
+  top: 55px;
+}
+
+
+
+/* footer */
+.box2 {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #737F74;
+}
+
+.footer__links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__link--wrapper {
+  display: flex;
+}
+
+.footer__link--items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+.footer__link--items h2 {
+  margin-bottom: 16px;
+  color: #ede9eb;
+}
+
+.footer__link--items a {
+  color: #ede9eb;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: 0.3 ease-out;
+}
+
+.footer__link--items a:hover {
+  color: #B9C8BA;
+  transition: 0.3 ease-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    visibility: hidden;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .ikon {
+    position: relative;
+  }
+
+  .Log_in {
+    width: 25px;
+    position: relative;
+    top: 7px;
+  }
+
+  .Basket {
+    width: 25px;
+    position: relative;
+    top: -2px;
+  }
+  /*footer*/
+  .footer__link--items {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .footer__links {
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__link--wrapper {
+    flex-direction: column;
+  }
+
+  #kontakt {
+    position: relative;
+    right: 75px;
+  }
+}
